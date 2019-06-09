@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -19,7 +20,7 @@ spec:
     spec:
       containers:
       - name: demowebcontainer
-        image: cwebb/demo-web:0.1
+        image: cwebb/demo-web:0.2
         ports:
         - containerPort: 80
           name: http
