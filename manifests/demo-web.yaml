@@ -20,6 +20,6 @@ spec:
       containers:
       - name: demowebcontainer
         image: cwebbtw/demo-web:0.1
-	ports:
+        ports:
         - containerPort: 80
           name: http
